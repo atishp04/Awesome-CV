@@ -737,8 +737,8 @@
 \DeclareFieldFormat[incollection]{title}{#1\par}
 
 \DeclareBibliographyDriver{article}{%
-  \fontsize{9pt}{1em}\bodyfont%
-  \printfield{title}%
+  {\fontsize{9pt}{1em}\bodyfont\bfseries\color{darktext}%
+  \printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -758,8 +758,8 @@
 }
 
 \DeclareBibliographyDriver{inproceedings}{%
-  \fontsize{9pt}{1em}\bodyfont%
-  \printfield{title}%
+  {\fontsize{9pt}{1em}\bodyfont\bfseries\color{darktext}%
+  \printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -777,8 +777,8 @@
 }
 
 \DeclareBibliographyDriver{incollection}{%
-  \fontsize{9pt}{1em}\bodyfont%
-  \printfield{title}%
+  {\fontsize{9pt}{1em}\bodyfont\bfseries\color{darktext}%
+  \printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -796,8 +796,8 @@
 }
 
 \DeclareBibliographyDriver{misc}{%
-  \fontsize{9pt}{1em}\bodyfont%
-  \printfield{title}%
+  {\fontsize{9pt}{1em}\bodyfont\bfseries\color{darktext}%
+  \printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -817,8 +817,8 @@
 }
 
 \DeclareBibliographyDriver{report}{%
-  \fontsize{9pt}{1em}\bodyfont%
-  \printfield{title}%
+  {\fontsize{9pt}{1em}\bodyfont\bfseries\color{darktext}%
+  \printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
